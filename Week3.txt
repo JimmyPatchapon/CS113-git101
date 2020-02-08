@@ -1,0 +1,32 @@
+If-Else Statement
+------------------------------------
+if ( condition )
+{
+    code 
+}
+else if ( condition )
+{
+    code 
+}
+else
+{
+    code 
+}
+
+ถ้า condition เป็น True ก็จะเข้า Block นั้นๆ
+------------------------------------
+Iteration For and While Loop
+------------------------------------
+while(condition)
+{
+    code
+}
+หลุดออกจาก while เมื่อ condition เป็น False
+
+for (1. initialization; 2. loop condition ; 4. increments/decrements after loop ends)
+{
+   3. code
+}
+
+for มี 4 ส่วน
+ทำงานเรียงตามลำดับจาก 1 2 3 4 แล้ว 2 3 4 loop
