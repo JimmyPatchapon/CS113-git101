@@ -1,0 +1,13 @@
+Receiving Input 
+----------------------------------
+fgets(char array, buffer size, input)
+
+buffer size - Memory ที่จองไว้ชั่วคราวไว้รับ input
+input - ถามว่ารับ input จากไหน (stdin = keyboard)
+
+getchar() - รับ char 1 ตัว
+----------------------------------
+Printing Output
+
+puts() - print string 1 ชุด + \n
+printf("%formatting")
