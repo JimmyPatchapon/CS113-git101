@@ -1,0 +1,21 @@
+Function (Pass by Value)
+------------------------------------
+ตัวแปรที่เป็น Primitive Data Type ที่ถูกทำงานใน function โดยไม่ถูกประกาศว่าเป็นตัวแปร Global จะเป็นคนละตัวกับใน function อื่นๆ
+
+int a(int x)
+{
+    x += 10;
+}
+int main
+{
+    x = 10;
+    a(x);
+    printf("%d",x);
+}
+ก็จะ print ออกมาเป็น 10 ไม่ใช่ 20
+------------------------------------
+Memory Allocation / Address
+
+การตั้งตัวแปรแต่ละชนิดจะมีการจองพื้นที่ใน Memory
+และจะมี Memory Address ของจุดๆนั้น ที่ถูกเก็บตัวแปรไว้
+Memory จะถูก Allocate ขนาดตามขนาดของ data type
